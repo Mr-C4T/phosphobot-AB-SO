@@ -16,6 +16,7 @@ from phosphobot.hardware import (
     LeKiwi,
     PiperHardware,
     SO100Hardware,
+    SO100Hardware_tilted,
     UnitreeGo2,
     WX250SHardware,
     RemotePhosphobot,
@@ -28,6 +29,7 @@ rcm = None
 
 robot_name_to_class = {
     SO100Hardware.name: SO100Hardware,
+    SO100Hardware_tilted.name: SO100Hardware_tilted,
     KochHardware.name: KochHardware,
     WX250SHardware.name: WX250SHardware,
     UnitreeGo2.name: UnitreeGo2,
