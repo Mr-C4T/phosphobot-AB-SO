@@ -15,7 +15,7 @@ from phosphobot.models import RobotConfigStatus
 
 
 class SO100Hardware_tilted(BaseManipulator):
-    name = "so-100_ab-so-bot"
+    name = "so-100_tilted"
 
     URDF_FILE_PATH = str(
         get_resources_path() / "urdf" / "so-100_ab-so-bot" / "urdf" / "so-100_ab-so-bot.urdf"
