@@ -161,6 +161,7 @@ class RobotConnectionManager:
                 WX250SHardware,
                 KochHardware,
                 SO100Hardware,
+                SO100Hardware_tilted,
             ]:
                 if not hasattr(robot_class, "name") or not hasattr(
                     robot_class, "from_port"
