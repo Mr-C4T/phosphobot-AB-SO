@@ -6,6 +6,6 @@ from .koch11 import KochHardware
 from .lekiwi import LeKiwi
 from .piper import PiperHardware
 from .so100 import SO100Hardware
-from .so100_ab-so-bot import SO100Hardware_tilted
+from .so100_tilted import SO100Hardware_tilted
 from .wx250s import WX250SHardware
 from .phosphobot import RemotePhosphobot
