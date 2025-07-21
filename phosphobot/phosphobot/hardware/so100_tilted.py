@@ -80,7 +80,7 @@ class SO100Hardware_tilted(BaseManipulator):
         return {v[0]: k for k, v in self.motors.items()}
 
     @classmethod
-    def from_port(cls, port: ListPortInfo, **kwargs) -> Optional["SO100Hardware"]:
+    def from_port(cls, port: ListPortInfo, **kwargs) -> Optional["SO100Hardware_tilted"]:
         """
         Detect if the device is a SO-100 robot.π
         """
