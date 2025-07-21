@@ -54,6 +54,13 @@ const ROBOT_TYPES = [
     fields: [{ name: "device_name", label: "USB Port", type: "device_name" }],
   },
   {
+    id: "so-100_tilted",
+    name: "AB-SO-BOT",
+    category: "manipulator",
+    image: placeholderSvg,
+    fields: [{ name: "device_name", label: "USB Port", type: "device_name" }],
+  },
+  {
     id: "koch-v1.1",
     name: "Koch 1.1",
     category: "manipulator",
