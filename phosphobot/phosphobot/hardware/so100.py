@@ -21,7 +21,7 @@ class SO100Hardware(BaseManipulator):
         get_resources_path() / "urdf" / "so-100" / "urdf" / "so-100.urdf"
     )
 
-    AXIS_ORIENTATION = [0, 0, 1, 1]
+    AXIS_ORIENTATION = [1, 0, 1, 1]
 
     # Control commands (refer to the Feetech SCServo manual)
     TORQUE_ENABLE = 0x01
