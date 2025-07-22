@@ -21,7 +21,8 @@ class SO100Hardware_tilted(BaseManipulator):
         get_resources_path() / "urdf" / "so-100_ab-so-bot" / "urdf" / "so-100_ab-so-bot.urdf"
     )
 
-    AXIS_ORIENTATION = [0, 0, 1, 1]
+    #AXIS_ORIENTATION = [0, 0, 1, 1]
+    AXIS_ORIENTATION = [1, 0, 1, 1] #ROTATION TEST FOR AB-SO-BOT SO100 ARMS
 
     # Control commands (refer to the Feetech SCServo manual)
     TORQUE_ENABLE = 0x01
